@@ -1,0 +1,5 @@
+[
+  { "url": "https://reqres.in/api/users", "name": "Reqres Users API" },
+  { "url": "https://httpstat.us/200", "name": "Status 200" },
+  { "url": "https://www.saucedemo.com", "name": "SauceDemo" }
+]
