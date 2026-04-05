@@ -11,7 +11,11 @@ describe('checkEndpoint', () => {
   });
 
   it('should use custom name', async () => {
-    const result = await checkEndpoint({ url: 'http://localhost:1', name: 'My API', timeout: 1000 });
+    const result = await checkEndpoint({
+      url: 'http://localhost:1',
+      name: 'My API',
+      timeout: 1000,
+    });
     expect(result.name).toBe('My API');
   });
 
