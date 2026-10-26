@@ -77,7 +77,9 @@ http-status-checker/
 │   ├── cli.ts
 │   └── index.ts
 ├── tests/unit/
-│   └── checker.test.ts    # 9 tests — healthy, unhealthy, parser
+│   ├── checker.test.ts    # 11 tests — healthy, unhealthy, parser
+│   ├── checker-mocked.test.ts # 11 tests — mocked HTTP responses
+│   └── reporter.test.ts   # 4 tests — console output
 ├── examples/endpoints.json
 └── .github/workflows/ci.yml
 ```
